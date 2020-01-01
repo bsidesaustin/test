@@ -12,6 +12,14 @@ permalink: /about/
         <div class="block">
           <h1>What is BSides?</h1>
           <p></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="post-area">
             
 <p>BSides is a community-driven framework for organizing and holding information security conferences, a concept that began in the US in 2009. Because the call for papers that year for Black Hat Vegas was oversubscribed, a number of quality speakers were rejected—not because of lack of quality but of lack of space and time. Those unable to present decided to hold their own conference on the "b side."</p>
 <p>Since then, many BSides events have been arranged in several countries throughout the world. BSides has come to be known as a conference by the community for the community. Events are generally inexpensive to attend and rely heavily on sponsorship to pay for the venue and other costs and are run as not-for-profit.</p>
@@ -24,17 +32,5 @@ permalink: /about/
 <h1>Making it happen</h1>
 <p><strong>Organizers for 2019:</strong><br>Matt Pardo <a href="https://twitter.com/ultraslogger">@ultraslogger</a><br>Janice Daquila-Pardo<br></p>
             
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{% for post in site.posts %}
-<div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
 </div>
-{% endfor %}
+
