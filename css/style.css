@@ -26,6 +26,7 @@
 
 .post-area a:link, .post-area a:visited {
   font-size: 15px;
+  color: blue;
 }
 
 .post-area a:hover {
